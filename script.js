@@ -20,8 +20,8 @@ function show(value, index){
     <td>${value.name}</td>
     <td>${value.gender}</td>
     <td>${value.status}</td>
-    <td><button class="btn btn-info" onclick="editUser(${value.id})">edit</button>
-    <button class="btn btn-danger" onclick="deleteUser(${value.id})">delete</button></td>"</tr>`
+    <td><button class="btn btn-sm btn-info" onclick="editUser(${value.id})">Edit</button></td>
+    <td><button class="btn btn-sm btn-danger" onclick="deleteUser(${value.id})">Delete</button></td></tr>`
 
 }
 
